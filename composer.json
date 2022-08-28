@@ -1,0 +1,13 @@
+{
+  "name": "hgati/skuautogenerate",
+  "type": "magento-module",
+
+  "extra": {
+    "map": [
+      ["app/code/local/Neev/Skuautogenerate", "app/code/local/Neev/Skuautogenerate"],
+      ["app/design/adminhtml/default/default/layout", "app/design/adminhtml/default/default/layout"],
+      ["app/design/adminhtml/default/default/template", "app/design/adminhtml/default/default/template"],
+      ["app/etc/modules/Neev_Skuautogenerate.xml", "app/etc/modules/Neev_Skuautogenerate.xml"]
+    ]
+  }
+}
