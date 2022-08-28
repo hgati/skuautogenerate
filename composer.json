@@ -1,13 +1,23 @@
 {
   "name": "hgati/skuautogenerate",
   "type": "magento-module",
+  "description": "Auto Sku Generator for Magento 1.x product",
+  "keywords": ["magento sku skuautogenerator"],
+  "homepage": "https://github.com/hgati/skuautogenerate",
+  "license": "MIT",
+  "authors": [{ "name": "Dennis Lee", "email": "cobays@gmail.com", "homepage": "https://github.com/hgati", "role": "Magento 1.x Developer" }],
+
+  "require": {
+    "php": ">=7.0.0",
+    "magento-hackathon/magento-composer-installer": "*"
+  },
 
   "extra": {
     "map": [
-      ["app/code/local/Neev/Skuautogenerate", "app/code/local/Neev/Skuautogenerate"],
-      ["app/design/adminhtml/default/default/layout", "app/design/adminhtml/default/default/layout"],
-      ["app/design/adminhtml/default/default/template", "app/design/adminhtml/default/default/template"],
-      ["app/etc/modules/Neev_Skuautogenerate.xml", "app/etc/modules/Neev_Skuautogenerate.xml"]
+      ["src/app/code/local/Neev/Skuautogenerate", "app/code/local/Neev/Skuautogenerate"],
+      ["src/app/design/adminhtml/default/default/layout", "app/design/adminhtml/default/default/layout"],
+      ["src/app/design/adminhtml/default/default/template", "app/design/adminhtml/default/default/template"],
+      ["src/app/etc/modules/Neev_Skuautogenerate.xml", "app/etc/modules/Neev_Skuautogenerate.xml"]
     ]
   }
 }
