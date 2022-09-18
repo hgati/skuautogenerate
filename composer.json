@@ -8,16 +8,7 @@
   "authors": [{ "name": "Dennis Lee", "email": "cobays@gmail.com", "homepage": "https://github.com/hgati", "role": "Magento 1.x Developer" }],
 
   "require": {
-    "php": ">=7.0.0",
+    "php": ">=7.2.0",
     "magento-hackathon/magento-composer-installer": "*"
-  },
-
-  "extra": {
-    "map": [
-      ["src/app/code/local/Neev/Skuautogenerate", "app/code/local/Neev/Skuautogenerate"],
-      ["src/app/design/adminhtml/default/default/layout", "app/design/adminhtml/default/default/layout"],
-      ["src/app/design/adminhtml/default/default/template", "app/design/adminhtml/default/default/template"],
-      ["src/app/etc/modules/Neev_Skuautogenerate.xml", "app/etc/modules/Neev_Skuautogenerate.xml"]
-    ]
   }
 }
